@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278334087262",
+    "project_id": "hashtag-app-db90d",
+    "storage_bucket": "hashtag-app-db90d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278334087262:android:062af06ea6ba468ba714cf",
+        "android_client_info": {
+          "package_name": "com.example.hashtags_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb3ddkFgB5LFrB0DNYrK2HzkYD3U876zE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
