@@ -22,7 +22,7 @@ jobs:
         with:
           channel: "stable"
 
-      - name: Get Dependencies
+      - name: Get All Dependencies
         run: flutter pub get
 
       - name: Build APK File
@@ -45,7 +45,7 @@ jobs:
           path: build/app/outputs/apk/release/app-release.apk
           # path: build/app/outputs/apk/debug/app-release.apk
 
-      - name: upload APK to Firebase App Distribution
+      - name: Move APK to Firebase App Distribution
         uses: wzieba/Firebase-Distribution-Github-Action@v1.7.0
         with:
           appId: ${{secrets.APPID}}
