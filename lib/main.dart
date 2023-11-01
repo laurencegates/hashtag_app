@@ -4,6 +4,7 @@ import 'package:hashtags_app/firebase_options.dart';
 import 'package:hashtags_app/home_page.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
